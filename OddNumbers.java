@@ -1,4 +1,4 @@
-package tutorial1;
+package tutorial2;
 
 import java.util.Scanner;
 
@@ -10,10 +10,10 @@ public class OddNumbers {
         int n = sc.nextInt();
 
         for (int i = 1; i <= n; i++) {
-            if (i % 2 == 0)
+            if (i % 2 == 0) {
                 continue;
-
-            System.out.print(i + " ");
+            }
+            System.out.println(i);
         }
 
         sc.close();

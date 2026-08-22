@@ -1,4 +1,4 @@
-package tutorial1;
+package tutorial2;
 
 import java.util.Scanner;
 
@@ -9,14 +9,20 @@ public class VowelConsonant {
         System.out.print("Enter a character: ");
         char ch = sc.next().charAt(0);
 
-        switch (Character.toLowerCase(ch)) {
+        switch (ch) {
             case 'a':
             case 'e':
             case 'i':
             case 'o':
             case 'u':
+            case 'A':
+            case 'E':
+            case 'I':
+            case 'O':
+            case 'U':
                 System.out.println("Vowel");
                 break;
+
             default:
                 System.out.println("Consonant");
         }
